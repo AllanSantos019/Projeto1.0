@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compras.css">
+    
+  
+<title>Check-out</title>
+</head>
+<body>
+    <section class="form-container">
+        <div class="container">
+
+
+
+
+<form action="/procesar_pagamento" method="informar">
+    <!-- Informacão do cliente -->
+    <h1>Detalles do cartão</h1>
+
+    
+    <div class="input-single"> 
+<label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    <br>
+    </div>
+
+    
+
+        <div class="input-single"> 
+<label for="email">E-mail</E-mail>:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+        </div>
+        <div class="input-single"> 
+    <!-- Detalhes do pagamento -->
+    <label for="numero do cartao">Número do cartão:</label>
+    
+    
+<input type="text" id="numero do cartao" name="numero do cartao" required>
+    <br>
+        </div>
+
+    
+
+        <div class="input-duplo">
+            <div class="input-single">
+         
+<label for="validade">Data de validade:</label>
+
+    
+<input type="text" id="validade" name="validade" placeholder="MM/AA" required>
+      <br>
+            </div>
+        
+    
+      <div class="input-single">
+        <div class="cvv">
+    <label for="cvv">CVV:</label>
+    <input type="text" id="cvv" name="cvv"  required>
+<br>
+</div>
+</div>
+    </div>
+
+
+    <!-- Botão de envio -->
+   <div class="submit"> <input type="submit" value="Realizar pagamento"></div>
+        </div>
+</form>
+        </div>
+        
+    </section>
+</body>
+</ht>
+</html>

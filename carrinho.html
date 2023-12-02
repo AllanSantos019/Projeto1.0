@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset=UFT-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="htps://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="carrinho.css">
+<head>
+    <body>
+        <div class="carrinho">
+            <div class="cabecalho-carrinho">
+            <button>
+               
+                <a href="index.html" class="bx bx-chevron-left"></a>
+            </button> 
+            <h3>Meu carrinho</h3>
+        </div>
+        <ul>
+            <li class="carrinho-itens">
+<div class="imagens">
+<img src="img/fone.png.png" width="150px" alt="#">
+</div>
+<div class="inf">
+    <h4>bx-headphone</h4>
+    <div class="detalhes">
+<div class="status">
+<div class="preco">
+<p>R$199,00</p>
+
+
+<div class="contador"> 
+<span class="minus">-</span>
+<span class="num">01</span>
+<spam class="plus">+</spam>
+</div>
+<script>
+    const plus = document.querySelector(".plus"),
+    minus = document.querySelector(".minus"),
+    num = document.querySelector(".num");
+    let a = 1;
+    plus.addEventListener("click",()=>{
+        a++;
+        a = (a <10) ? "0" + a : a;
+        num.innerText = a; 
+        console.log(a);
+    });
+    minus.addEventListener(click, ()=>{
+if(a > 1){
+    a--;
+    a = (a < 10) ? "0" + a : a;
+    num.innerText = a;
+    }
+    });
+</script>
+
+</div>
+    </div>
+
+</div>
+            </li>
+        </ul>
+ <a href="compras.html"><button class="comprar">Comprar</button></a>
+    </div>
+    </body>
+    
+    </body>
+</head>
